@@ -1,1 +1,21 @@
-baseurl: /seejs
+
+baseurl:      /seejs  #网站的跟路径
+
+source:      .       #源码路径
+destination: ./_site #解析到的路径
+encoding:     utf-8  #编码
+
+
+
+host:        0.0.0.0
+port:        4000   #端口
+
+lsi:          true
+
+exclude:      [./jekyll-start.sh,./server.js]
+
+
+
+pygments: true
+markdown: kramdown
+highlighter: pygments
