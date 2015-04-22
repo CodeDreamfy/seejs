@@ -1,1 +1,7 @@
-.nav {height: 60px; background: #f2f2f2; line-height: 60px; text-indent: 2em; border-bottom: 1px solid #f0f0f0;}
+/*reset*/
+* {margin: 0; padding: 0;}
+
+/*util*/
+
+/*common*/
+.nav {height: 60px; background: #f2f2f2; line-height: 60px; text-indent: 2em; border-bottom: 2px solid #ccc; font-size: 18px; font-weight: bolder;}
