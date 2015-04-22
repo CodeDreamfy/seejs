@@ -1,7 +1,20 @@
 /*reset*/
-* {margin: 0; padding: 0;}
+
 
 /*util*/
-
+.clearfix{
+    zoom: 1;
+    _height: 1px
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
 /*common*/
-.nav {height: 60px; background: #f2f2f2; line-height: 60px; text-indent: 2em; border-bottom: 2px solid #ccc; font-size: 18px; font-weight: bolder;}
+.nav {width: 100%; position: fixed; top: 0; left: 0; right: 0; height: 60px; z-index: 10; background: #f8f8f8; opacity: 0.8; border-bottom: 1px solid black;}
+.nav p {height: 60px; line-height: 30px; text-indent: 1.5em;  font-size: 28px; font-weight: bolder; color: black;}
+
+.main {width: 900px; margin: 30px auto; border-width: 0 1px !important; padding: 30px; border:solid #f2f2f2;}
