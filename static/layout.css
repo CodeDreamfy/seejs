@@ -14,7 +14,7 @@
     visibility: hidden
 }
 /*common*/
-.nav {width: 100%; position: fixed; top: 0; left: 0; right: 0; height: 60px; z-index: 10; background: #f8f8f8; opacity: 0.8; border-bottom: 1px solid black;}
+.nav {width: 100%; position: fixed; top: 0; left: 0; right: 0; height: 60px; z-index: 10; background: #f8f8f8; opacity: 0.8; border-bottom: 1px solid #cccccc;}
 .nav p {height: 60px; line-height: 30px; text-indent: 1.5em;  font-size: 28px; font-weight: bolder; color: black;}
 
 .main {width: 900px; margin: 30px auto; border-width: 0 1px !important; padding: 30px; border:solid #f2f2f2;}
