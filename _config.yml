@@ -15,7 +15,7 @@ lsi:          true
 exclude:      [./jekyll-start.sh,./server.js]
 
 
-static:       static/
+static:       /seejs/static/
 
 pygments: true
 markdown: kramdown
