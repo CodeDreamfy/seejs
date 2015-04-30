@@ -6,15 +6,17 @@
        <link rel="stylesheet" href="{{ site.static }}css/reset.css">
        <link rel="stylesheet" href="{{ site.static }}css/layout.css">
        <link rel="stylesheet" href="{{ site.static }}css/mdcss/pygments.css">
+       <link rel="stylesheet" href="{{ site.static }}css/animate/animate.css">
+       <script src="{{ site.static }}js/lib/jquery.min.js"></script>
 　　</head>
 　　<body>
-        <div class="nav">
+        <div class="nav animated fadeInDown">
             <p>Seejs天地</p>
         </div>
-        <div class="main">
+        <div class="main bounceInRight animated">
            {{ content }} 
         </div>
-        <div class="footer">
+        <div class="footer animated fadeInUp">
           <p>Create By : <a href="#" onclick="alert('成长中^_^')">爱做梦的鱼</p>
         </div>
     </body>
