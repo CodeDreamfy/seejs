@@ -26,9 +26,7 @@ title: 搭建自己的个人博客
 	git add .   //选中要提交的文件
 	git commit -m "注释"   //提交新增的文件到本地
 	git commit -am "同上"  //提交只修改了的文件到本地
-	git push origin ph-page  //将本地的提交到gh-page分支下
-	git pull origin ph-page  //将github上的check下来
+	git push origin gh-pages  //将本地的提交到gh-page分支下
+	git pull origin gh-pages  //将github上的check下来
 
-
-<link rel="stylesheet" href="{{ site.static }}css/mdcss/pygments.css">
 
