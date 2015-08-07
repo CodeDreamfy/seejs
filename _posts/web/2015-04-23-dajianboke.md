@@ -30,5 +30,5 @@ title: 搭建自己的个人博客
 	git pull origin ph-page  //将github上的check下来
 
 
-
+<link rel="stylesheet" href="{{ site.static }}css/mdcss/pygments.css">
 

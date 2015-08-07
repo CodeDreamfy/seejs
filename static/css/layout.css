@@ -1,4 +1,6 @@
 /*reset*/
+html,body { width: 100%; height: 100%; overflow: hidden;}
+body { width: 100%; margin: 0; padding: 0;}
 
 
 /*util*/
@@ -13,15 +15,29 @@
     clear: both;
     visibility: hidden
 }
+.rel { position: relative;}
+.abs { position: absolute;}
+
 /*common*/
-.nav {position: fixed; top: 0; left: 0; right: 0; height: 60px; z-index: 10; background: #f8f8f8; opacity: 0.8; border-bottom: 1px solid #ccc;}
-.nav p {height: 60px; line-height: 30px; text-indent: 1.5em;  font-size: 28px; font-weight: bolder; color: black;}
+.wrapper { width: 100%; position: absolute; top: 0; left:0; bottom: 0; right: 0; background: url(../images/bg.jpg) no-repeat center center; background-size: cover;}
 
-.main {width: 900px; margin: 30px auto; border-width: 0 1px !important; padding: 30px; border:solid #f2f2f2;}
+.wrapper .nav { width: 100%; position: fixed; top: 0; left: 0; border-bottom: 1px solid rgba(140, 118, 118, 0.6); height: 68px;}
+.wrapper .nav .nav-main { width: 1280px; height: 68px; margin: 0 auto;}
+.wrapper .nav .nav-main p a { width: 200px; height: 68px; line-height: 68px; font-size: 26px; color: white !important; text-indent: .5em;}
 
-.footer {position: fixed; bottom: 0; left: 0; right: 0; z-index: 10; height: 100px; background: #f8f8f8; border-top: 1px solid #ccc;}
-.footer p {text-align: center;}
-.footer p a {color: blue;}
+.wrapper .main { width: 100%; z-index: 6; min-height: 300px; top: 120px;}
+.wrapper .main .content { width: 1280px; margin: 0 auto;}
+.wrapper .main .content .newtitle { font-size: 22px; font-weight: bold; color: #fff;}
+.wrapper .main .content .newtitle:hover:before { content: '{  '}
+.wrapper .main .content .newtitle:hover:after { content: '  }'}
+.wrapper .main .content .newlist li { height: 36px;}
+.wrapper .main .content .newlist li .date {float: left; width: 100px; text-align: center; line-height: 36px; color: orange;}
+.wrapper .main .content .newlist li a { float: left; text-align: left; width: 500px; height: 36px; line-height: 36px; color: yellow; overflow: hidden; text-overflow: ellipsis; font-size: 21px;}
+.wrapper .main .content .newlist li a:hover { text-shadow: 3px 3px 3px #fff; -webkit-text-shadow: 3px 3px 3px #fff;}
+.wrapper .main .content .newlist li a:hover:before { content:'{  ';}
+.wrapper .main .content .newlist li a:hover:after { content:'  }';}
+
+
 
 
 
