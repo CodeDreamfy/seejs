@@ -2,6 +2,7 @@
 layout: default
 title: 搭建自己的个人博客
 ---
+<link rel="stylesheet" href="{{ site.static }}css/mdcss/pygments.css">
 #搭建自己的个人博客
 ***
 我是按照阮一峰的博客走的流程
