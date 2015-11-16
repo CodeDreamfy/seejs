@@ -9,23 +9,28 @@
     <link rel="stylesheet" href="{{ site.static }}css/animate/animate.css">
     <script src="{{ site.static }}js/lib/jquery.min.js"></script>
   </head>
-  <body>
-  <div class="wrapper">
+  <body id="codedreamfy">
+    <nav>
+      <div class="wrapper">
+        <h1 class="logo fl">
+          <a href="javascript:;" class=""></a>
+        </h1>
+        <ul class="menu fr">
+          <li><a href="javascript:;"><i class="sanjiao"></i>首页</a></li>
+          <li><a href="javascript:;">日志</a></li>
+          <li><a href="javascript:;">标签</a></li>
+          <li><a href="javascript:;">关于我</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="nav">
-      <div class="nav-main animated fadeInDown">
-        <p><a href="{{ site.baseurl }}/index.html">爱做梦的鱼</a></p>
-      </div> 
+    <div class="wrapper main clearfix">
+      {{ content }}
     </div>
-
-    <div class="main abs bounceInRight animated">
-      <div class="content">
-        {{ content }}
-      </div> 
-    </div>
-    
-  </div>
+    <footer>
+        
+    </footer>
   </body>
-
+  <script src="{{ site.static }}js/main.js"></script>
 </html>
 

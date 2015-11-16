@@ -7,3 +7,5 @@ port:        4000   #端口
 exclude:      [./jekyll-start.sh,./server.js]
 static:       /seejs/static/
 markdown:     kramdown
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+about:        codedreamfy

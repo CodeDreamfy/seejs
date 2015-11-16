@@ -1,13 +1,16 @@
 ---
 layout: default
-title: seejs
+title: CodeDreamfy
 ---
-<p class="newtitle">最新文章</p>
-<ul class="newlist">
-{% for post in site.posts %}
+<div class="newslist fl">
+  <h1 class="title rel"><em class="square"><i></em></i>最新文章</h1>
+  <ul class="list">
+    {% for post in site.posts %}
     <li>
-      <span class="date">{{ post.date | date_to_string }}</span>
+      <span class="times fr">{{ post.date | date:"%Y-%m-%d"}}</span>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
-{% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</div>
+<div class="side fr"></div>
